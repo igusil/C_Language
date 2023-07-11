@@ -1,4 +1,5 @@
 #include <stdio.h>
+// calculator in c
 int main(void)
 {
   int num1, num2, sum, sub, multi, div, res;
