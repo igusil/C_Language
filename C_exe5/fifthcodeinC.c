@@ -27,3 +27,6 @@ int main(void)
 
   return 0;
 }
+/*
+ Encrypt one pass with operators
+*/
