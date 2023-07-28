@@ -2,6 +2,9 @@
   2 #include <limits.h>
   3 #include <stdint.h>
   4 #include <stdlib.h>
+
+  //bit a bit
+  
   5 // for i in {1..32}; do echo -n 0; done; echo
   6 /* &
   7  * |
