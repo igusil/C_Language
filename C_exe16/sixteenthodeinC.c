@@ -1,8 +1,8 @@
-1 #include <stdio.h>
+  1 #include <stdio.h>
   2 #include <limits.h>
   3 #include <stdint.h>
   4 #include <stdlib.h>
-  5 
+  5   //if else codes
   6 int main (void) {
   7   int a = 359;
   8   int chave = 3;
