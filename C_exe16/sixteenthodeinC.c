@@ -26,6 +26,7 @@
  26   }
  27   //ternário
  28   //(a == 3) ? puts("3") : puts("não sei o valor de a");
+      //(a < 500) ? puts("a menor que 500");
  29   if (a == 3) {
  30     puts("3");
  31   }
