@@ -41,7 +41,39 @@ int main(void)
 17   return 0;
 18 }
 
+//*************************************************
 
+ #include <stdio.h>
+  2 #include <stdbool.h>
+  3 #include <stdlib.h>
+  4 #include <stdint.h>
+  5 #include <limits.h>
+  6
+  7 int main (void) {
+  8
+  9  //unsigned int i = 0;
+ 10  /*
+ 11   do        //make while printf for i<3
+ 12     printf("O valor de i eh: %u\n", i++);
+ 13   while (i < 3);
+ 14   */
 
-
+// *****************************************
+/*
+18   /*while (true)
+19   {
+20     printf("O valor de i eh: %u\n", i);
+21     if (i >= 2)
+22       break;
+23     i++;
+24   }
+25   */
+/*
+27   for (unsigned i = 0 ; i <= 2 ; i++) {
+28     printf("O valor de i eh: %u\n", i);
+29   }
+30
+31
+32   return 0;
+33 }
 */
