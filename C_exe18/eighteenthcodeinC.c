@@ -15,3 +15,15 @@
  15 
  16   return 0;
  17 }
+/*
+  8   int i = 2017;
+  9   int *p;
+ 10 
+ 11   p = &i;
+ 12 
+ 13   printf("O endereço da variavel i em memoria eh: %p\n", p);
+ 14   printf("O endereço da variavel i em memoria eh: %p\n", &i);
+ 15   printf("O valor de i em decimal eh: %d\n", i);
+ 16 
+
+*/
