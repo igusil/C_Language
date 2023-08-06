@@ -25,5 +25,11 @@
  14   printf("O endereço da variavel i em memoria eh: %p\n", &i);
  15   printf("O valor de i em decimal eh: %d\n", i);
  16 
-
+/******************************************************************
+  8   int a[2];
+  9   a[0] = 2022;
+ 10   a[1] = 2023;
+ 11 
+ 12   printf("a[0]: %d\n a[1]: %d\n",*a, *a+1);
+ 13 
 */
