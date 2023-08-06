@@ -76,4 +76,15 @@ int main(void)
 31
 32   return 0;
 33 }
+
+ 7 int main (void) {
+  8   int a[] = { 2017, 2018, 2019};
+  9 
+ 10   for ( int i = 0; i < 3 ; i++) {
+ 11     printf("%d\n", a[i]);
+ 12   }
+ 13 
+ 14   return 0;
+ 15 }
+
 */
