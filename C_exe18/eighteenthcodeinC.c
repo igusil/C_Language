@@ -3,6 +3,31 @@
   3 #include <stdlib.h>
   4 #include <stdint.h>
   5 #include <limits.h>
+  
+  6 void imprime( char *s) {
+  7   while (*s != '\0') //enquanto s for diferente de 0  
+  8     putchar(*s++); // putchar pega valor *s e passa para putchar que imprime     um char na tela em forma de char e incrementa s+1
+  9 }
+ 10 
+ 11 int main (void) {
+ 12 
+ 13   char s[] = "igor";
+ 14   char *t = "igor";
+ 15   char u[] = { 0x69, 0x67, 0x6F, 0x72, '\n',0x00 };
+ 16 
+ 17   puts(s);
+ 18   puts(t);
+ 19   imprime(u);
+ 20 
+ 21   return 0;
+ 22 }
+
+ 
+ /* 1 #include <stdio.h>
+  2 #include <stdbool.h>
+  3 #include <stdlib.h>
+  4 #include <stdint.h>
+  5 #include <limits.h>
   6 
   7 int main (void) {
   8   int a[] = { 2017, 2018, 2019};
@@ -15,6 +40,7 @@
  15 
  16   return 0;
  17 }
+ */
 /*****************************************************************
   8   int i = 2017;
   9   int *p;
