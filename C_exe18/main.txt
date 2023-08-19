@@ -1,0 +1,14 @@
+  1 #include <stdio.h>
+  2 
+  3 int main (int argc, char *argv[]) {
+  4 //char *s = "texto"; //ponteiro de char. char *argv[]
+  5 //char (*argv)[] é um ponteiro para um array de chars.
+  6 //char **s = {"text", "text1", "text3" //ponteiro para um ponteiro de char};
+  7   int i;
+  8  
+  9  for (i = 0;i < argc; i++)
+ 10   puts(argv[i]);
+ 11   
+ 12   return 0;
+ 13 }
+~        
