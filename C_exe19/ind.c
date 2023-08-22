@@ -3,15 +3,16 @@
 
 int main (int argc, char *argv[]) {
   
-  char s[30] = "igor"; //0-29
+  char s[10] = "igor"; //0-29
 
   for (int i = 0; i < 30; i++)
   
-    printf("%x ", s[i]);
     printf("%x\n", s[29] );
     printf("%x\n", *(s+29) );
 
-  putchar('\n'); //ultiza char
+    printf("%x\n", 29[s] );
+    printf("%x\n", *(29+s) );
+
   
   return (0);
 }
