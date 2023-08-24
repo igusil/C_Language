@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #define TAM 2
 
 enum pedras { CAVALO=2, BISPO, TORRE, RAINHA };
