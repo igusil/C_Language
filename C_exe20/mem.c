@@ -19,12 +19,21 @@ void *malloc_s(size_t size) {
 }
 
 int main(int argc, char *argv[]) {
-  int *p;
+  int *p, i;
 
  // p = malloc_s(sizeof(int)); // { malloc } retorna o endereço para a memoria alocada
-  MALLOC(p, sizeof(int));
-  *p = 9; 
+  MALLOC(p, 5 * sizeof(int));
+  *p = 9;
+  *(p+1) = 43;
+  *(p+2) = 65;
+  *(p+3) = 11;
+  *(p+4) = 23;
+  *(p+5) = 90;
+
+  for (i=0;i<5;i++)
+    printf("%d\n", *(p+i));
   printf("%d\n", *p);
+  printf("%d\n", *(p+1));
   free(p); //libera a memoria alocada 
 
   return (0);
