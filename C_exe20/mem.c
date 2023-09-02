@@ -7,6 +7,7 @@
     exit(1); \
   } \
 }
+//malloc
 void *malloc_s(size_t size) {
   void *ptr;
   ptr = malloc(size);
