@@ -7,7 +7,7 @@
     exit(1); \
   } \
 }
-//malloc
+//malloc // alocação dinamica de memoria
 void *malloc_s(size_t size) {
   void *ptr;
   ptr = malloc(size);
