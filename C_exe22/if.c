@@ -9,9 +9,23 @@ int main(void) {
     printf("chave: %d\n", chave);
     printf("oi\n");
   }
-  else  
+  else if (a < 500) {
+    puts("a eh menor que 500");
+  }
+  else if (a == 359) {
+    puts("a eh 359");
+  }
+  else {
     printf("avaliacao do if deu FALSE\n");
+    puts("laall");
+  }
 
+  //ternario
+  (a == 3) ? puts("3") : puts("não sei o valor de a");
+
+  if (a == 3)
+    puts("3");
+  else("não sei o valor de a");
   printf("a: %d\n", a);
 
   return(0);
