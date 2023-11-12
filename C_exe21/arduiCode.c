@@ -78,6 +78,5 @@ else {
   Serial.print ("distância = ");
   Serial.print (dist);
   Serial.println ("cm - seguro ");
-
   }
 }
