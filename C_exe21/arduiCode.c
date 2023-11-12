@@ -79,5 +79,5 @@ else {
   Serial.print (dist);
   Serial.println ("cm - seguro ");
 
-}
+  }
 }
