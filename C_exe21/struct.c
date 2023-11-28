@@ -1,18 +1,27 @@
 #include <stdio.h>
 
 struct st {
-    unsigned char id;
-    unsigned int num;
+   unsigned char id;
+   unsigned char id2;
+   unsigned char id3;
+   unsigned int num;
 };
 
 int main(void) {
-    struct st s[10];
+   struct st s;
+  
+  // s.id = 3;
+   s.num = 2017;
+   s.id[3] = 0x41;
+   s.id[2] = 0x90;
 
-    s[0].id = 3;
-    s[0].num = 2017;
+  
 
-    printf("s[0].id: %d\n", s[0].id);
-    printf("s[0].num: %d\n", s[0].num);
+   printf("s.id: %d\n", s.id);
+   printf("s.num: %d\n", s.num);
+   
+   printf("sizeof(struct st): %d\n", sizeof(struct st));
 
-    return(0);
+   return(0);
 }
+
