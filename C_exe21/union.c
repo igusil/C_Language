@@ -1,28 +1,26 @@
 #include <stdio.h>
 #include <string.h>
 
-struct st {
-   unsigned char id[5];
+union st {
+   unsigned char id;
    //unsigned char id2;
    //unsigned char id3;
    unsigned int num;
 };
 
 int main(void) {
-   struct st s;
+   union st s;
   
   //s.id = 3;
    s.num = 2017;
-   s.id[3] = 0x41;
-   s.id[2] = 0x90;
-
-  //memset(&s, 0, sizeof(struct st));
-
+   //s.id[3] = 0x41;
+   //s.id[2] = 0x90;
    printf("s.num: %d\n", s.num);
-   memset(&s, 0, sizeof(struct st));
+
+   memset(&s, 1, sizeof(union st));
    printf("s.num: %d\n", s.num);
    
-   printf("sizeof(struct st): %zu\n", sizeof(struct st));
+   printf("sizeof(union st): %zu\n", sizeof(union st));
 
    return(0);
 }
