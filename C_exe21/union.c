@@ -9,8 +9,7 @@ union st {
 };
 
 int main(void) {
-   union st s;
-  
+   union st s;  
   //s.id = 3;
    s.num = 2017;
    s.id = 0x30;
