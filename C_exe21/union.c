@@ -13,13 +13,14 @@ int main(void) {
   
   //s.id = 3;
    s.num = 2017;
-   //s.id[3] = 0x41;
+   s.id = 0x30;
    //s.id[2] = 0x90;
    printf("s.num: %d\n", s.num);
 
    memset(&s, 1, sizeof(union st));
    printf("s.num: %d\n", s.num);
-   
+   printf("s.id: %d\n", s.id);
+
    printf("sizeof(union st): %zu\n", sizeof(union st));
 
    return(0);
