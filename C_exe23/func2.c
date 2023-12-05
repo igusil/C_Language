@@ -17,7 +17,10 @@ int main (void){
     printf("Erro: o num1 eh menor que 1\n");
     exit(1);
   }
-
+  else if (num1 < 1900) {
+    printf("vc eh mto velho\n");
+    exit(1);
+  }
   printf("Voce nasceu em %d\n", num1);
 
   return(0);
