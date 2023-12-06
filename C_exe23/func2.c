@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void error(void) {
-  printf("tchau\n");
+void tchau(char msg[]){
+  printf(msg);
   exit(1);
 }
 
@@ -12,15 +12,11 @@ int main (void){
   printf("Digite o num1: ");
   scanf("%d", &num1);
 
-//  printf("num1 %d\n", num1);
-  if (num1 < 1) {
-    printf("Erro: o num1 eh menor que 1\n");
-    exit(1);
-  }
-  else if (num1 < 1900) {
-    printf("vc eh mto velho\n");
-    exit(1);
-  }
+  if (num1 < 1)
+    tchau("Erro: o num1 eh menor que 1\n");
+  else if (num1 < 1900)
+    tchau("vc eh mto velho\n");
+
   printf("Voce nasceu em %d\n", num1);
 
   return(0);
