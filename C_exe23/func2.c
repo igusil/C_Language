@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 void tchau(char msg[]){
   fprintf(stderr, "ERRO: %s\n", msg);
   exit(1);
